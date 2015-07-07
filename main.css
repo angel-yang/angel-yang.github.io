@@ -1,0 +1,154 @@
+/*
+ Angel Yang
+ main.css
+ 07.06.2015
+ */
+
+html { 
+  background: url('Images/background.png') no-repeat center center fixed; 
+  background-size: cover;
+  font-family: 'Raleway';
+}
+
+
+.page {
+	width: 100%;
+	display: inline-block;
+}
+
+
+/* Clearfix */
+.nav:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+
+.nav {
+	margin-top: 0em;
+}
+
+
+.nav li {
+	margin: 0em 0.25em;
+	float: right;
+	list-style: none;
+}
+
+
+.nav a {
+	padding: 9px 15px;
+	display: inline-block;
+	border-radius: 3px 3px 0px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    opacity: 0.5;
+    transition: all linear 0.15s;
+    text-decoration: none;
+}
+
+
+.nav a:hover {
+	color: white;
+	opacity: 1;
+}
+
+
+.content {
+    padding:15px;
+}
+
+
+.tab {
+    display:none;
+}
+ 
+
+.tab.active {
+    display:block;
+}
+
+
+/* Home Tab */
+.name {
+	margin-top: 9%;
+	text-align: center;
+}
+
+
+.name img {
+	width: 50%;
+	vertical-align: middle;
+}
+
+
+.icons {
+	text-align: center;
+	word-spacing: 2em;
+}
+
+
+.icons img {
+	height: 3em;
+}
+
+
+/* About Tab */
+.about {
+	background: white;
+	opacity: 0.7;
+	text-align: left;
+	width: 96%;
+	padding: 1em;
+	font-size: 1.5em;
+}
+
+
+.about img {
+	float: right;
+	width: 50%;
+	opacity: 1;
+	padding-left: 1.8em;
+	padding-bottom: 1.8em;
+}
+
+
+.about h1 {
+	text-align: center;
+}
+
+
+/* Experience Tab */
+.experience {
+	background: white;
+	opacity: 0.7;
+	text-align: left;
+	font-size: 1.5em;
+	padding: 1em;
+}
+
+
+.experience h1 {
+	text-align: center;
+}
+
+
+/* Contact Tab */
+.contact {
+	text-align: center;
+	word-spacing: 4em;
+	font-size: 1.5em;
+}
+
+
+.contact h1 {
+	background: white;
+	opacity: 0.7;
+	text-align: center;
+	width: 94%;
+	padding: .8em;
+	margin-bottom: 3em;
+	word-spacing: normal;
+}
