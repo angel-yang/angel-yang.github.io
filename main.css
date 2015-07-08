@@ -26,7 +26,7 @@ html {
 
 
 .nav {
-	margin-top: 0em;
+	margin-top: 0;
 }
 
 
@@ -57,7 +57,7 @@ html {
 
 
 .content {
-    padding:15px;
+    padding:5%;
 }
 
 
@@ -86,12 +86,12 @@ html {
 
 .icons {
 	text-align: center;
-	word-spacing: 2em;
+	word-spacing: 1em;
 }
 
 
 .icons img {
-	height: 3em;
+	width: 5%;
 }
 
 
@@ -101,7 +101,7 @@ html {
 	opacity: 0.7;
 	text-align: left;
 	padding: 1em;
-	font-size: 1.5em;
+	font-size: 150%;
 }
 
 
@@ -111,6 +111,14 @@ html {
 	opacity: 1;
 	padding-left: 1.8em;
 	padding-bottom: 1.8em;
+}
+
+
+@media screen and (max-width:500px) {
+	.about img {
+		width: 100%;
+		opacity: 1;
+	}
 }
 
 
@@ -124,7 +132,7 @@ html {
 	background: white;
 	opacity: 0.7;
 	text-align: left;
-	font-size: 1.5em;
+	font-size: 150%;
 	padding: 1em;
 }
 
@@ -138,7 +146,7 @@ html {
 .contact {
 	text-align: center;
 	word-spacing: 4em;
-	font-size: 1.5em;
+	font-size: 150%;
 }
 
 
