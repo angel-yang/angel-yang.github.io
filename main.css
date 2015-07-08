@@ -8,6 +8,7 @@ html {
   background: url('Images/background.png') no-repeat center center fixed; 
   background-size: cover;
   font-family: 'Raleway';
+  overflow: hidden;
 }
 
 
@@ -19,7 +20,7 @@ html {
 
 /* Clearfix */
 .nav:after {
-	display: block;
+	display: block;1
 	clear: both;
 	content: '';
 }
@@ -114,14 +115,6 @@ html {
 }
 
 
-@media screen and (max-width:500px) {
-	.about img {
-		width: 100%;
-		opacity: 1;
-	}
-}
-
-
 .about h1 {
 	text-align: center;
 }
@@ -157,4 +150,25 @@ html {
 	padding: 1em;
 	margin-bottom: 3em;
 	word-spacing: normal;
+}
+
+
+@media screen and (max-width:500px) {
+	.about img {
+		width: 100%;
+		opacity: 1;
+	}
+
+
+	h1 {
+		text-align: center;
+		font-size:90%;
+	}
+}
+
+
+@media screen and (max-width:439px) {
+	.content {
+		margin-top: 4em;
+	}
 }
