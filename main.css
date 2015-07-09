@@ -84,6 +84,11 @@ html {
 }
 
 
+.centering {
+	text-align: center;
+}
+
+
 .icons {
 	text-align: center;
 	word-spacing: 1em;
