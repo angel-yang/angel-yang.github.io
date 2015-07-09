@@ -84,11 +84,6 @@ html {
 }
 
 
-.centering {
-	text-align: center;
-}
-
-
 .icons {
 	text-align: center;
 	word-spacing: 1em;
@@ -160,6 +155,11 @@ html {
 @media screen and (max-width:500px) {
 	.content {
 		margin-top: 4em;
+	}
+
+
+	.icons {
+		word-spacing: normal;
 	}
 
 
