@@ -1,23 +1,19 @@
-/*
- Angel Yang
- script.js
- 07.06.2015
- */
+$(document).ready( function() {
 
-$(document).ready(function() {
+	document.getElementById('#education').style.display = 'block';
 
-	document.getElementById('#home').style.display = 'block';
+	$('.medium .container .nav a').on('click', function(e) {
 
-	$('.page .nav a').on('click', function(e) {
-		
-		var tabs = document.getElementsByClassName('tab');
+		var slides = document.getElementsByClassName('slide');
 
-		for (var i = 0; i < tabs.length; i++ ) {
-			tabs[i].style.display = 'none';
+		for (var i = 0; i < slides.length; i++ ) {
+			slides[i].style.display = 'none';
 		}
 
 		var id = $(this).attr('href');
 		document.getElementById(id).style.display = 'block';
 
 	});
+
 });
+

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 
 <!--
-=====================================================
- ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ 
 
    ] ] ]    ]      ]   ] ] ] ]   ] ] ] ] ]  ]
  ]       ]  ] ]    ]  ]       ]  ]       ]  ]
@@ -11,156 +9,248 @@
  ]       ]  ]    ] ]  ]       ]  ]          ]
  ]       ]  ]      ]   ] ] ] ]   ] ] ] ] ]  ] ] ] ] ]
 
- ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ 
-=====================================================
- Angel Yang
- index.html
- 07.06.2015
+Last updated: 10.11.2015
+To Do:
+- make the education / experience / projects section a slider
 -->
 
 <html lang = "en">
 
-	<head>
+<head>
 
-		<title>Angel Yang</title>
-		
-		<meta charset="utf-8">
-		<meta name="author" content="Angel Yang">
-		<meta name="description" content="Angel Yang | Columbia University | B.S. Computer Science">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Angel Yang</title>
+	
+	<meta charset="utf-8">
+	<meta name="author" content="Angel Yang">
+	<meta name="description" content="Angel Yang | Columbia University | B.S. Computer Science">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link href="Icons/main.ico" rel="icon">
-		<link href='http://fonts.googleapis.com/css?family=Raleway|Megrim' rel='stylesheet' type='text/css'>
-		<link href="main.css" rel="stylesheet">
+	<link href="Icons/main.ico" rel="icon">
+	<link href='http://fonts.googleapis.com/css?family=Raleway|Megrim' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+	<link href="main.css" rel="stylesheet">
+	<link href="bootstrap.min.css" rel="stylesheet">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="script.js"></script>
 
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<script>
+		// google analytics
+	</script>
 
-			ga('create', 'UA-64869443-1', 'auto');
-			ga('send', 'pageview');
-		</script>
+</head>
 
-	</head>
- 
 
-	<body>
-		
-		<div class="page">
+<body>
+	
+	<div class="dark">
+		<div class="container name">
+			<h1>Angel <strong>Yang</strong></h1>
+		</div>
+	</div>
 
+	<div class="light">
+		<div class="container">
+			<div class="col-xs-3">
+				<center><h2>About</h2></center>
+
+				<div class="circle"></div>
+			</div>
+
+			<div class="description col-xs-9">
+				<br><p>
+				Hello and welcome to my page! <br><br>
+
+				My name's Angel, and I'm from sunny Orange County, California. I am currently a sophomore pursuing Computer Science at Columbia University in the amazing New York City.<br><br>
+
+				In my free time, I love doing arts and crafts, playing with dogs, hiking/running, and trying new restaurants with friends and family.
+				<br></p>
+			</div>
+		</div>
+	<div>
+
+	<div class="medium">
+		<div class="container">
+
+			<!-- <center>
 			<ul class="nav">
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#education">Education</a></li>
 				<li><a href="#experience">Experience</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#home">Home</a></li>
+				<li><a href="#projects">Projects</a></li>
 			</ul>
+			</center> -->
+			
+			<div id="education" class="slide">
+				<h2>Education</h2>
+				
+				<div class="col-xs-4">
+					<h4>School</h4>
+					<p>
+						<strong>Columbia University</strong><br>
+						Expected May 2018 | New York, NY<br>
+						B.S. Computer Science<br>
+						<br>
+
+						<strong>Northwood High School</strong><br>
+						Graduated June 2014 | Irvine, CA<br>
+						<br>
+					</p>
+				</div>
 
 
-			<div class="content">
+				<div class="col-xs-4">
+					<h4>Societies</h4>
+					<p>
+						<strong>Society of Women Engineers</strong><br>
+						Engineering Exploration Committee '14 to '15<br>
+						Marketing Executive Chair '15 to '16<br>
+						<br>
 
-				<!-- Home -->
-				<div id="#home" class="tab">
-
-					<div class="name">
-						<a href="#home"><img src="Images/name.png"></a>
-					</div>
-
-					<div class="icons">
-						<a href="https://www.facebook.com/angelyangg">
-						<img src="Icons/facebook.png"></a>
-
-						<a href="https://www.linkedin.com/in/yangangel">
-						<img src="Icons/linkedin.png"></a>
-
-						<a href="https://github.com/angel-yang">
-						<img src="Icons/github.png"></a>
-
-						<a href="mailto:cy2389@columbia.edu?subject=Hi Angel!">
-						<img src="Icons/email.png"></a>
-					</div>
-
-				</div> <!-- Home -->
+						<strong>Taiwanese American Student Association</strong><br>
+						Organizational Committee Member '14 to '15<br>
+						Treasurer '15 to '16<br>
+						<br>
+					</p>
+				</div>
 
 
-				<!-- About Me -->
-				<div id="#about" class="tab">
-					
-					<div class="about">
+				<div class="col-xs-4">
+					<h4>Coursework</h4>
+					<p>
+						Data Structures and Algorithms<br>
+						Fundamentals of Computer Science<br>
+						Discrete Mathematics<br>
+					</p>
+				</div>
+			</div>
 
-						<h1>About Me</h1>
-						<img src="Images/pic.jpg">
-
-						<p>Hello and welcome!</p>
-						<p>My name's Angel, and I'm from sunny Orange County, California.</p>
-						<p>I am currently pursuing my B.S. in Computer Science at Columbia University in the amazing New York City.</p>
-						<p>In my free time, I love doing arts and crafts, playing with dogs, hiking/running, and trying new restaurants with friends and family.</p>
-						<p>Check out the "Contact" tab on the top right corner to get in touch with me!</p>
-
-					</div>
-
-				</div> <!-- About Me -->
+		</div>
+	</div>
 
 
-				<!-- Experience -->
-				<div id="#experience" class="tab">
+	<div class="light">
+		<div class="container">
+			<div id="experience" class="slide">
+				<h2>Experience</h2>
 
-					<div class="experience">
+				<div class="col-xs-12">
+					<h4>Work Experience</h4>
+					<p>
+						<strong>Girls Who Code</strong><br>
+						Teaching Assistant | June 2015 - August 2015<br>
+						- Taught a classroom of 20 high school juniors and seniors in an intensive 7-week program sponsored and hosted by the Honest Company.<br>
+						- Covered introductory coding in Scratch, robotics in Python with Scribblers, and web and app design in HTML, CSS, JavaScript, jQuery, and Processing.js.<br>
+						- Mentored students through formalizing, creating, and presenting final projects.<br>
+						<br>
 
-						<h1>Experience</h1>
-
-						<p>[ Under Construction ]</p>
-						<p>Check out my "Contact" page to find my Linkedin!</p>
-
-						<!-- <h2>What I'm Up to Now</h2>
-						<p>I am currently a teaching assistant for Girls Who Code! Check out <a href="https://gwcboutique.wordpress.com/">our blog</a> for a peek!</p>
-
-						<h2>Projects</h2>
-						<strong>Bloooop</strong>
-						<p>First Hackathon Project | Columbia Devfest 2015 | 3rd Place</p>
-						<p>Description coming soon...</p>
-
-						<h2>Past Experiences</h2> -->
-
-
-					</div>
-
-				</div> <!-- Experience -->
-
-
-				<!-- Contact Me -->
-				<div id="#contact" class="tab">
-
-					<div class="contact">
-
-						<h1>Contact Me</h1>
-						
-						<p>
-						<a href="https://www.facebook.com/angelyangg">
-						<img src="Icons/facebook.png"></a>
-
-						<a href="https://www.linkedin.com/in/yangangel">
-						<img src="Icons/linkedin.png"></a>
-
-						<a href="https://github.com/angel-yang">
-						<img src="Icons/github.png"></a>
-
-						<a href="mailto:cy2389@columbia.edu?subject=Hi Angel!">
-						<img src="Icons/email.png"></a></p>
-
-					</div>
-
-				</div> <!-- Contact Me -->
+						<strong>TechieGirls</strong><br>
+						Teaching Assistant, Pilot Team | July 2015 - August 2013<br>
+						- Piloted TechieGirls, a week-long summer program that exposes middle school girls to different fields of technology<br>
+						- Covered the basics of web design in HTML and CSS, introductory game programming in Microsoft Kodu, and Python.<br>
+						- Sponsored by the National Center for Women in Technology and hosted by University of California, Irvine.<br>
+						<br>
+					</p>
+				</div>
+				
+				<div class="col-xs-4">
+					<h4>Technical</h4>
+					<p>
+						Java<br>
+						Python<br>
+						HTML<br>
+						CSS<br>
+						JavaScript<br>
+						jQuery<br>
+						MATLAB<br>
+						MS Excel<br>
+					</p>
+				</div>
 
 
-			</div> <!-- Content -->
+				<div class="col-xs-4">
+					<h4>IDEs</h4>
+					<p>
+						NetBeans<br>
+						BlueJ<br>
+						Sublime<br>
+						Anaconda<br>
+					</p>
+				</div>
 
-		</div> <!-- Page -->
 
-	</body>
+				<div class="col-xs-4">
+					<h4>Languages</h4>
+					<p>
+						English<br>
+						Mandarin<br>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="medium">
+		<div class="container">
+			<div id="projects" class="slide">
+				<h2>Projects</h2>
+				
+				<div class="col-xs-12">
+					<p>
+						<strong>Breast Cancer Classifier</strong>&nbsp;&nbsp; Python<br>
+						Created a program that reads a data file on breast masses and tests the accuracy of labeling a mass as malignant or benign based on its Euclidean distance to other data points.<br>
+						<br>
+
+						<strong>Image Editor</strong>&nbsp;&nbsp; Python<br>
+						Created an image editing program that takes in binary or text files and produces a new file with the desired effects: an object filter, color filter, or flip effect.<br>
+						<br>
+
+						<strong>Bloooop</strong>&nbsp;&nbsp; HTML, CSS, JavaScript<br>
+						Worked in a group of four to create a responsive web application soundboard. Won 3rd place at Columbia's 2015 DevFest Hackathon.<br>
+						<br>
+					</p>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+	<div class="dark">
+		<div class="container">
+			<div class="col-xs-8">
+				<!-- credit for the word cloud to Tagul -->
+				<script src="http://cdn.tagul.com/embed/nwlt7bkrw2c2"></script>
+			</div>
+
+
+			<div class="col-xs-4">
+			<img src="Images/pic.jpg">
+			<h2>Contact Me</h2>
+				<div class="icons">
+					<a href="https://www.facebook.com/angelyangg">
+					<img src="Icons/facebook.png"></a>
+
+					<a href="https://www.linkedin.com/in/yangangel">
+					<img src="Icons/linkedin.png"></a>
+
+					<a href="https://github.com/angel-yang">
+					<img src="Icons/github.png"></a>
+
+					<a href="mailto:cy2389@columbia.edu?subject=Hi Angel!">
+					<img src="Icons/email.png"></a>
+				</div>
+			</div>
+
+	
+			<div class="col-xs-12 right">
+				<br><br><br>
+				<p>Made by Angel Yang &nbsp;|&nbsp; 2015</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+
 
 </html>
